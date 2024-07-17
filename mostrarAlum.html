@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand  navbar navbar-dark bg-dark">
+        <ul class="nav navbar-nav">
+            <li class="nav-item" id="img">
+                    <img src="img/casa.png" alt="" width="30px" height="30px">
+                    <a href=""></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Alumnos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="alumnos.html">Capturar</a></li>
+                </ul>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="alumnos.html">Mostrar</a></li>
+                  </ul>
+              </li>
+            <li>
+                <a class="nav-link" href="">Docentes</a>
+            </li>
+            <li>
+                <a href="login.html" class="nav-link" >Cerrar Sesion</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="">
+                <h1>Mostrar Alumnos</h1>
+                <div id="tabla">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/captura-alumnos.js"></script>
+</body>
+</html>
